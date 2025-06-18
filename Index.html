@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MindBloom</title>
+</head>
+<body>
+    <!-- header -->
+     <header>
+    <h1 class="heading">MINDBLOOM</h1>
+    <h2>Hey, it's okay to pause...</h2>
+    <p>Your safe mental health check-in space</p>
+     </header> 
+     <!-- mood tracker -->
+      <section class="mood-tracker">
+      <h2>How are you feeling today?</h2>
+      <div class="mood buttons">
+      <button>Happy</button>
+      <button>Calm</button>
+      <button>Sad</button>
+      <button>Angry</button>
+      <button>Not sure</button>
+      </div>
+      </section>
+      <!-- daily tasks -->
+       <section class="daily-tasks">
+        <h2>Today's self-care tasks</h2>
+        <ul>
+            <li>Breathe deeply for one minute</li>
+            <li>Step outside for a few minutes</li>
+            <li>Write one thing you are grateful for</li>
+        </ul>
+       </section>
+       <!-- affirmation generator -->
+        <section class="affirmation">
+            <h2>Your Affirmation</h2>
+            <p id="affirmation-text">You Are Enough</p>
+            <button onclick="newAffirmation()">Show Another</button>
+        </section>
+        <!-- guided journal -->
+         <section class="journal-entry">
+            <h2>Write What's on Your Mind</h2>
+            <form id="journalForm">
+                <textarea placeholder="Dear me..." rows="5"></textarea>
+                <br>
+                <button type="submit">Save Entry</button>
+            </form>
+         </section>
+         <!-- footer -->
+          <footer>
+            <p>&copy; 2025 MindBloom | Made with care by Vivian</p>
+          </footer>
+</body>
+</html>
